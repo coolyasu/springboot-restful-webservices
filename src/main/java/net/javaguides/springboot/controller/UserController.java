@@ -102,7 +102,7 @@ public class UserController {
     )
     @DeleteMapping("{userId}")
     public ResponseEntity<String> deleteUser(@PathVariable Long userId) {
-        return new ResponseEntity<>("User successfully deleted", HttpStatus.OK);
+        return new ResponseEntity<>("User successfully Deleted", HttpStatus.OK);
     }
 //
 //    @ExceptionHandler(ResourceNotFoundException.class)
